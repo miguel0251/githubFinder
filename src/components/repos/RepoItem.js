@@ -11,8 +11,8 @@ const RepoItem = ({ repo }) => {
   );
 };
 
-export default RepoItem;
-
 RepoItem.propTypes = {
   repo: PropTypes.object.isRequired,
 };
+
+export default RepoItem;
